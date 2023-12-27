@@ -21,9 +21,9 @@ p {
   color: black;
 }
 .options {
-  max-width: 900px;
   height: auto;
   display: flex;
+  gap: 8px;
 }
 
 img {
@@ -36,7 +36,8 @@ img {
   padding: 20px;
   border: 1px solid #ccc;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
 }
 
 .options > div:hover {
