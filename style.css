@@ -1,17 +1,23 @@
-h1 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+header {
   font-size: large;
+  font-weight: 600;
   padding: 15px;
   letter-spacing: 2px;
   background-color: rgb(252, 200, 103);
   color: rgba(1, 1, 82, 0.904);
-  }
-  
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
 a {
   text-decoration: none;
 }
   h2, p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 20px;
 }
 h2 {
@@ -21,6 +27,7 @@ p {
   color: black;
 }
 .options {
+  margin-top: 15px;
   height: auto;
   display: flex;
   gap: 16px;
@@ -53,6 +60,13 @@ img {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ccc;
+  height: 40px;
+}
 
 
 
