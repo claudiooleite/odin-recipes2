@@ -1,10 +1,16 @@
 header {
-  font-size: large;
+  font-size: 32px;
   font-weight: 600;
-  padding: 15px;
+  padding: 30px;
   letter-spacing: 2px;
   background-color: rgb(252, 200, 103);
   color: rgba(1, 1, 82, 0.904);
+}
+.fas fa-utensils {
+  color: red;
+  font-size: 1.2em;
+  position: relative;
+  top: -0.1em;
 }
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
