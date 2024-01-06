@@ -32,6 +32,7 @@ body {
 
 .pre.left {
     max-width: 25%;
+    gap: 10px;
 }
 
 .pre.buttons{
@@ -46,3 +47,13 @@ body {
     justify-content: center;
 }
 
+.info-list {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.info-list li {
+    border: 1px solid;
+}
