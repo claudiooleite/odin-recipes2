@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
 }
 
-.first {
+.first, .main-second {
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -31,13 +31,14 @@ body {
 }
 
 .pre.left {
-    max-width: 25%;
+    max-width: 30%;
     gap: 10px;
 }
 
 .pre.buttons{
     flex-direction: row;
     width: 100%;
+    gap: 10px;
 }
 .pre.buttons > button {
     display: flex;
@@ -45,6 +46,7 @@ body {
     background-color: rgba(252, 200, 103, 0.596);
     width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
 .info-list {
@@ -57,3 +59,18 @@ body {
 .info-list li {
     border: 1px solid;
 }
+
+.ingredients {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.main-ingredient, .main-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-ingredient {
+    width: 300px;
+}
+
